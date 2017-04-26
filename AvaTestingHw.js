@@ -23,7 +23,9 @@ function longer(nickname, fullName) {
 
 function matching_letters(nickname, fullName) {
     let letters = nickname.split('');
-    return fullName.includes(letters);
+    console.log(letters);
+    console.log(fullName.includes(letters));
+    letters.filter()
 }
 
 function nickname_function(nickname, fullName) {
@@ -93,7 +95,18 @@ test('valid input', function (t) {
  */
 
 function longx(string) {
+    let exes = 0;
 
+    for (let i = 0; i < string.length; i++) {
+        if (string[i] === 'x') {
+            exes++;
+        }
+        if (string[i] !== 'x') {
+            exes === exes;
+        }
+    }
+    return exes;
 }
 
+console.log(longx('asdxxxjdixxiij')) // this function counts the x's, I can't figure out the rest.
 

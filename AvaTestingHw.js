@@ -26,7 +26,7 @@ function matching_letters(nickname, fullName) {
     console.log(letters);
     console.log(fullName.includes(letters));
     letters.filter()
-}
+} // Can't figure this one out either, gonna come back. 
 
 function nickname_function(nickname, fullName) {
 
@@ -63,6 +63,7 @@ test('Are letters in the right order', function (t) {
  * 
  */
 
+/*I think this one is all done */
 
 function descending(number) {
     if (typeof(number) !== 'number'){
